@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+  <meta charset="utf-8">
+  <title>Exercice 5</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+</head>
+<body>
+  <div>
+    <!-- La directive ng-Click permet de spécifier un comportement personnalisé lorsqu'un élément est cliqué. -->
+    <button type="button" name="button" ng-click="texte=true">Afficher</button>
+    <button type="button" name="button" ng-click="texte=false">Cacher</button>
+    <p ng-show ="texte">Hello world !</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
